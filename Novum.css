@@ -1,0 +1,96 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.watermark{
+    background-image: url('///E:/lee/unique.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    position: absolute;
+}
+
+body{
+    background-color: black;
+    color:white;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+
+#btn, #sbtn{
+    background-color:crimson;
+    color:white;
+    border:0.5px solid black;
+    border-radius:5px;
+    height:25px;
+    width:100px;
+    
+}
+
+h3{
+    font-family:'Franklin Gothic Medium';
+    font-style: italic;
+}
+
+h1{
+    font-family:helvetica;
+    font-size: 40px;
+}
+
+#con-msg{
+    color:cyan;
+    font-family: Pacifico;
+    font-size: 25px;
+
+}
+
+.dark{
+    background-color: black;
+    color:white;
+}
+
+.light{
+    background-color: white;
+    color:black;
+}
+
+#info, #help, #magic{
+    margin-left: 300px;
+    margin-top: 10px;
+    border-radius:5px;
+    background-color:orangered;
+    color:white;
+    border:1px solid black;
+    height:20px;
+    width:90px;
+}
+
+#img{
+    height:60px;
+    width:60px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity:0.5;
+}
+
+
+
+ 
+
+
+
+
+
+
